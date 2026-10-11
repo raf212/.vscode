@@ -1,0 +1,18 @@
+{
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "clangd.arguments": [
+        "--compile-commands-dir=${workspaceFolder}/.vscode/build-acpp-windows-intellisense",
+        "--background-index",
+        "--clang-tidy",
+        "--header-insertion=never",
+        "--completion-style=detailed",
+        "--query-driver=${workspaceFolder}/external/AdaptiveCpp/install-windows/bin/clang++.exe"
+    ],
+    "clangd.checkUpdates": true,
+    "cmake.sourceDirectory": "${workspaceFolder}/core",
+    "cmake.generator": "Ninja",
+    "cmake.buildDirectory": "${workspaceFolder}/build-acpp-windows",
+    "cmake.configureOnOpen": false,
+    "cmake.buildBeforeRun": true,
+    "cmake.launchBehavior": "newTerminal"
+}
